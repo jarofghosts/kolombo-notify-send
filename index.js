@@ -18,7 +18,15 @@ if (!server) {
   process.exit(1)
 }
 
-const data = {title: cli.input[0], message: cli.input[1], server}
+let title = undefined
+let message = cli.input[0]
+
+if (cli.input.length > 1) {
+  title = message
+  message = cli.input[1]
+}
+
+const data = {title, message, server}
 
 if (cli.flags.icon) {
   data.icon = fs.readFileSync(cli.flags.icon).toString("base64")

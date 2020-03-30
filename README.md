@@ -20,7 +20,7 @@ Alternatively you can install this executable globally with `npm i -g kolombo-no
 #### environment variables
 
 - `KOLOMBO_SERVER` (required) - Full URL with protocol to kolombo-server instance. Example: `http://localhost:3000/`
-- `KOLOMBO_NOTIFY_SEND_SILENT_FAILED` (optional) - Set to any value to prevent logging errors and exiting with an
+- `KOLOMBO_NOTIFY_SEND_SILENT_FAIL` (optional) - Set to any value to prevent logging errors and exiting with an
   error code if the notification cannot be proxied.
 
 ## license

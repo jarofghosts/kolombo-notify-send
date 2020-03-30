@@ -1,0 +1,21 @@
+{
+  "name": "kolombo-notify-send",
+  "bin": {
+    "notify-send": "index.js"
+  },
+  "version": "0.0.0",
+  "description": "notify-send executable for kolombo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "meow": "6.1.0"
+  },
+  "prettier": {
+    "semi": false,
+    "bracketSpacing": false
+  }
+}

@@ -3,6 +3,13 @@
   "bin": {
     "notify-send": "index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jarofghosts/kolombo-notify-send.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jarofghosts/kolombo-notify-send/issues"
+  },
   "version": "0.0.2",
   "description": "notify-send executable for kolombo",
   "main": "index.js",

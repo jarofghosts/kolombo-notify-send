@@ -2,6 +2,7 @@
 
 const http = require("http")
 const url = require("url")
+const path = require("path")
 const fs = require("fs")
 
 const meow = require("meow")
@@ -30,7 +31,7 @@ const data = {title, message, server}
 
 if (cli.flags.icon) {
   data.icon = fs.readFileSync(cli.flags.icon).toString("base64")
-  data.iconFilename = cli.flags.icon
+  data.iconFilename = path.basename(cli.flags.icon)
 }
 
 const {hostname, port} = url.parse(server)

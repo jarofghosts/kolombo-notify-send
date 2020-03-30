@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/jarofghosts/kolombo-notify-send/issues"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "notify-send executable for kolombo",
   "main": "index.js",
   "scripts": {
